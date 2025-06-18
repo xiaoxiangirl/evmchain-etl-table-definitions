@@ -19,15 +19,15 @@ To make it super efficient to query the data you are looking for instead of havi
 ## How To Submit New Table Definitions
 
 1. Fork this repository
-2. Use [ABI PARSER](https://nansen-contract-parser-prod.web.app/) to get the table defenition json files for the contract of your interest
+2. Use [ABI PARSER](https://nansen-contract-parser-prod.web.app/) to get the table definition json files for the contract of your interest
 3. Create a new branch and upload your new files to this branch
 4. Create a PR to merge to this main repository
-5. Make sure the `pyTest / Validate Json Files in parse Directory (pull_request)` Github Action runs Successfuly, if not you may need to fix your json files.
+5. Make sure the `pyTest / Validate Json Files in parse Directory (pull_request)` Github Action runs Successfully, if not you may need to fix your json files.
 6. Wait for it to be reviewed and merged, your BigQuery tables should show up shortly under the \_\_ project.
 7. Now you can query your newly parsed tables more efficiently and for a smaller cost.
 
 
-## Debugging Table Defenition Files
+## Debugging Table Definition Files
 
 A utility script for debugging and verifying contract parsing in EVM chains data processing pipelines is available. You can simply run 
 
